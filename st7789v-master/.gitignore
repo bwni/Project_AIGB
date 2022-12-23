@@ -1,0 +1,9 @@
+# Environment
+.python-version
+.vscode
+
+# Python
+__pycache__/
+build/
+dist/
+st7789v.egg-info/
