@@ -6,6 +6,7 @@ Welcome to the Automate Indoor Growing Box (AIGB) control program. The main file
 
 
 **BME280 sensor**
+-------------
 bepalen van i2c adressen gebruik "i2cdetect -y 1"
 BME280 sensor adress 77
 https://www.raspberrypi-spy.co.uk/2016/07/using-bme280-i2c-temperature-pressure-sensor-in-python/
