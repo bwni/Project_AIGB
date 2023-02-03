@@ -35,4 +35,4 @@ Humidity and temperature sensor: https://learn.adafruit.com/adafruit-bme280-humi
 
 Current error @co2 library
 ------
-When running the code the co2 sensor needs to load the files. During this process the data out of this co2 sensor are a negative or non-integer file. This causes a problem when running from the main file.
+When running the code the co2 sensor needs to load the files. During this process the data out of this co2 sensor are a negative or non-integer data. This causes a problem when running the main.py file.
