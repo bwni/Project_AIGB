@@ -8,9 +8,7 @@ How to use the program
 ------
 The files are installed on a raspberri pi 4, but it is also possible to run it on a raspberry pi 3 B+. By cloning the files from the repository, some of the packages are still needed to install on the pi.
 
-For using the dashboard from cayenne.mydevice.com it is important to first link the rapberry pi by following the instructions. The following youtube shows you how: 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Qx0IHv-UR-0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+For using the dashboard from cayenne.mydevice.com it is important to first link the rapberry pi by following the instructions. The following youtube shows you how: https://youtu.be/Qx0IHv-UR-0
 
 In addition to the above clip it could happen that some of the libraries aren't up-to-date. Then pip install the following:
 
