@@ -24,7 +24,7 @@ In addition to the above clip it could happen that some of the libraries aren't 
 
 The following pip install is for using the mh-z18 co2 sensor library:
 
-```pip3 install mh-z18```
+```pip3 install mh-z19```
 
 The following pip install is for using the mh-z18 co2 sensor library:
 
