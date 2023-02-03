@@ -4,19 +4,8 @@ Welcome
 ------
 Welcome to the Automate Indoor Growing Box (AIGB) control program. The main file is used to control incoming signals of sensors  and buttons, processing the data by visualising it on the display,  and sending outgoing signals to the motors and LED-strips.
 
+Package installation
+------
+Humidity and temperature sensor: https://learn.adafruit.com/adafruit-bme280-humidity-barometric-pressure-temperature-sensor-breakout/python-circuitpython-test#python-installation-of-bme280-library-2995297
 
-**BME280 sensor temp/ humidity**
--------------
-bepalen van i2c adressen gebruik "i2cdetect -y 1"
-BME280 sensor adress 77
-https://www.raspberrypi-spy.co.uk/2016/07/using-bme280-i2c-temperature-pressure-sensor-in-python/
-
-**co2 sensor**
---------------
-https://github.com/UedaTakeyuki/mh-z19
-
-**neopixel led licht**
----------------
-https://learn.adafruit.com/adafruit-neopixel-uberguide/python-circuitpython
-
-
+2inch Display (drivertype: ST7789V): https://www.waveshare.com/wiki/2inch_LCD_Module
