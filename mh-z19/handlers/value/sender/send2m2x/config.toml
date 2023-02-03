@@ -1,0 +1,7 @@
+[[sources]]
+  name   = "" # python file name of sensor handler without ".py"
+  [[sources.values]]
+    name = "" # value name which is in the read() functions return.
+    handlers = [
+      "handler4m2x.send_m2x", # send handler to m2x
+    ]

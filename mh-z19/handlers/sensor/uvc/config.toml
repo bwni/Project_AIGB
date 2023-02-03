@@ -1,0 +1,8 @@
+[[sensors]]
+  handler = "uvc_photo"
+  [[sensors.values]]
+    name = "photo"
+    handlers = [
+      "uvc_photo"
+    ]
+    terminator = "uvc_photo"
