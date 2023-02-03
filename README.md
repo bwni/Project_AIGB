@@ -12,4 +12,27 @@ Humidity and temperature sensor: https://learn.adafruit.com/adafruit-bme280-humi
 
 How to use the program
 ------
-You can run the program by entering in the console: ```cd git/Project_AIGB && sudo python3 main.py```.
+The files are installed on a raspberri pi 4, but it is also possible to run it on a raspberry pi 3 B+. By cloning the files from the repository, some of the packages are still needed to install on the pi.
+
+For using the dashboard from cayenne.mydevice.com it is important to first link the rapberry pi by following the instructions. The following youtube shows you how: 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Qx0IHv-UR-0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+In addition to the above clip it could happen that some of the libraries aren't up-to-date. Then pip install the following:
+
+```pip3 install paho-mqtt```
+
+The following pip install is for using the mh-z18 co2 sensor library:
+
+```pip3 install mh-z18```
+
+The following pip install is for using the mh-z18 co2 sensor library:
+
+```pip3 install adafruit-bme280```
+```pip3 install adafruit-circuitpython-bme280```
+
+If the installation of al packages are completed, you can run the program from your designated programfolder by entering the following into the console: 
+
+```sudo python3 main.py```
+
+
