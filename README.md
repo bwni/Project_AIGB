@@ -1,4 +1,5 @@
 # Project AIGB
+For following the whole process of making an Automated Indoor Growing Box (AIGB) click on the following link and put it in your favorites by clicking on the heart-icon: https://www.instructables.com/Build-Your-Own-Automated-Indoor-Growing-Box-AIGB/
 
 Welcome
 ------
