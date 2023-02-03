@@ -32,3 +32,7 @@ Package installation reference
 Humidity and temperature sensor: https://learn.adafruit.com/adafruit-bme280-humidity-barometric-pressure-temperature-sensor-breakout/python-circuitpython-test#python-installation-of-bme280-library-2995297
 
 2inch Display (drivertype: ST7789V): https://www.waveshare.com/wiki/2inch_LCD_Module
+
+Current error @co2 library
+------
+When running the code the co2 sensor needs to load the files. During this process the data out of this co2 sensor are a negative or non-integer file. This causes a problem when running from the main file.
