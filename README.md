@@ -1,17 +1,20 @@
 # Project AIGB
-For following the whole process of making an Automated Indoor Growing Box (AIGB) click on the following link and put it in your favorites by clicking on the heart-icon: https://www.instructables.com/Build-Your-Own-Automated-Indoor-Growing-Box-AIGB/
 
 Welcome
 ------
 Welcome to the Automate Indoor Growing Box (AIGB) control program. The main file is used to control incoming signals of sensors  and buttons, processing the data by visualising it on the display, and sending outgoing signals to the motors and LED-strips.
 
+Instructables (for building the whole product)
+------
+For following the whole process of making an Automated Indoor Growing Box (AIGB) click on the following link and put it in your favorites by clicking on the heart-icon: https://www.instructables.com/Build-Your-Own-Automated-Indoor-Growing-Box-AIGB/
+
 How to use the program
 ------
-The files are installed on a raspberri pi 4, but it is also possible to run it on a raspberry pi 3 B+. By cloning the files from the repository, some of the packages are still needed to install on the pi.
+The files are installed on a raspberri pi 4, but it is also possible to run it on a raspberry pi 3 B+. By cloning the files from the repository, some of the packages are still needed to install on the pi for first time use.
 
 For using the dashboard from cayenne.mydevice.com it is important to first link the rapberry pi by following the instructions. The following youtube shows you how: https://youtu.be/Qx0IHv-UR-0
 
-In addition to the above clip it could happen that some of the libraries aren't up-to-date. Then pip install the following:
+In addition to the above youtube-video it could happen that some of the libraries aren't up-to-date. Then pip install the following:
 
 ```pip3 install paho-mqtt```
 
@@ -19,7 +22,7 @@ The following pip install is for using the mh-z18 co2 sensor library:
 
 ```pip3 install mh-z19```
 
-The following pip install is for using the mh-z18 co2 sensor library:
+The following pip install is for using the bme-280 co2 sensor library:
 
 ```pip3 install adafruit-bme280```
 ```pip3 install adafruit-circuitpython-bme280```
