@@ -57,9 +57,9 @@ strip.begin()
 
 # Set the Cayenne authentication information
 
-MQTT_USERNAME  = "b6d7e900-6f0b-11ed-8d53-d7cd1025126a"
-MQTT_PASSWORD  = "b7efd7c914d5a6dcb57336b30855e7236f0b7918"
-MQTT_CLIENT_ID = "9eaed7b0-6f0d-11ed-b193-d9789b2af62b"
+MQTT_USERNAME  = ""
+MQTT_PASSWORD  = ""
+MQTT_CLIENT_ID = ""
 
 # Function to receive and set cayenne input data
 
